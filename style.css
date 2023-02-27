@@ -1,0 +1,43 @@
+body{
+    background-color: yellow;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 0.75rem;
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+}
+
+.grid{
+    height: 80vh;
+    width: 40vw;
+    display: grid;
+    grid-template-columns: 18rem 18rem;
+    grid-template-rows: 12rem 12rem 12rem;
+    gap: 0rem;
+}
+
+.pic{
+    height: 80vh;
+    width: 60vw;
+}
+
+.grid-img{
+    width: 18rem;
+    border: 6px outset gray;
+}
+.main-img{
+    width: 57vw;
+    border: 6px outset gray;
+}
+
+.grid-img:hover{
+    transform: scale(1.06);
+    transition-duration: 0.25s;
+}
